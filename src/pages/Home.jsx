@@ -1,10 +1,12 @@
+import Footer from "../components/Footer"
+import Header from "../components/Header"
 
 function Home () {
     return (
         <div>
-            <h1>
-                Portfolio en construction 
-            </h1>
+            <Header/>
+
+            <Footer/>
         </div>
     )
 }
