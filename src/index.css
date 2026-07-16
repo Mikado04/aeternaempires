@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme{
+    --color-noirEmpire: #080808;
+    --color-rougeSceau: #C81E2A;
+    --color-ivoire: #F7F3EF;
+    --color-orPatine: #B8966A;
+    --color-anthracite: #1E1E1E;
+}
