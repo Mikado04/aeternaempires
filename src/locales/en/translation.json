@@ -1,0 +1,83 @@
+{
+    "nav": {
+        "services": "SERVICES",
+        "offres": "OFFERS",
+        "realisations": "WORK",
+        "contact": "CONTACT"
+    },
+    "hero": {
+        "badge": "Communication Agency • Paris • Remote World",
+        "titre": "WE DON'T SELL YOU A LOGO.<br/> <red>WE BUILD AN</red> IMAGE THAT SELLS FOR YOU.",
+        "texte_first": "For individuals, SMEs and large companies that reject amateurism. Graphic design, website, mobile app — a single point of contact, an image of grandeur.",
+        "texte_second": "WE BUILD EMPIRES.",
+        "cta_whatsapp": "Chat on WhatsApp",
+        "cta_offres": "See our offers",
+        "texte_fin": "Average delivery time 5.2 days • Rating 4.9/5",
+        "texte_bas": "They already trust us"
+    },
+    "services": {
+        "niveau_1": "UNFILTERED DIAGNOSIS",
+        "niveau_2": "WHY YOUR CURRENT IMAGE IS COSTING YOU CUSTOMERS.",
+        "niveau_3": "90% of customers judge your credibility in 3 seconds. Your amateur logo tells them exactly what to avoid.",
+        "cartes": [
+            {
+                "pertes": "ESTIMATED LOSS: -40% REVENUE",
+                "titre": "YOU LOOK LIKE A BEGINNER",
+                "texte": "Canva logo, random colors, a cobbled-together Wix site. Your high-budget prospects go straight to your premium competitor without even comparing."
+            },
+            {
+                "pertes": "ESTIMATED LOSS: -62% CONVERSION",
+                "titre": "YOUR IMAGE DOESN'T SELL",
+                "texte": "A nice image isn't enough. You need a strategic image that reassures, positions and triggers the purchase. Right now you're decorating, not converting."
+            },
+            {
+                "pertes": "ESTIMATED LOSS: 87h/MONTH",
+                "titre": "YOU JUGGLE 4 CONTRACTORS",
+                "texte": "A designer running late, a developer who vanishes, a copywriter who gets nothing. Result: 3 months of delay and an inconsistent image across every channel."
+            }
+        ],
+        "solution": "The AETERNA solution: one single agency, empire-grade art direction, a system that sells while you sleep.",
+        "cta": "FIX MY IMAGE"
+    },
+    "offres": {
+        "niveau_1": "INVESTMENT, NOT EXPENSE",
+        "niveau_2": "CHOOSE YOUR EMPIRE.",
+        "niveau_3": "3 tiers. 0 bullshit. Each offer is built for a specific growth stage. We don't sell to everyone.",
+        "cartes": [
+            {
+                "plan_name": "Basic",
+                "plan_descp": "Pour démarrer avec les fonctionnalités essentielles.",
+                "plan_price": 1200,
+                "plan_feature": [
+                    "Accès aux blocs de base",
+                    "Support par email",
+                    "1 projet actif"
+                ]
+            },
+            {
+                "plan_name": "Pro",
+                "plan_descp": "Pour les projets qui ont besoin de plus de flexibilité.",
+                "plan_price": 2500,
+                "plan_feature": [
+                    "Tout dans Basic",
+                    "Blocs premium",
+                    "Support prioritaire",
+                    "5 projets actifs"
+                ]
+            },
+            {
+                "plan_name": "Pro Plus",
+                "plan_descp": "Scale with confidence using premium blocks, templates, and included strategy guidance.",
+                "plan_price": 3800,
+                "plan_feature": [
+                    "Tout dans Pro",
+                    "Templates premium & sections en plus",
+                    "Accès anticipé aux nouveaux composants",
+                    "Discord privé & support prioritaire",
+                    "Sessions stratégie mensuelles"
+                ],
+                "highlighted": true
+            }
+        ]
+    }
+}

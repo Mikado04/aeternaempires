@@ -1,0 +1,83 @@
+{
+    "nav": {
+        "services": "SERVICES",
+        "offres": "OFFRES",
+        "realisations": "RÉALISATIONS",
+        "contact": "CONTACT"
+    },
+    "hero": {
+        "badge": "Agence de Communication • Paris • Remote Monde",
+        "titre": "ON NE VOUS VEND PAS UN LOGO.<br/> <red>ON BÂTIT UNE</red> IMAGE QUI VEND À VOTRE PLACE.",
+        "texte_first": "Pour particuliers, PME et grandes entreprises qui refusent l'amateurisme. Design graphique, site web, app mobile — un seul interlocuteur, une image d'empire.",
+        "texte_second": "NOUS BÂTISSONS DES EMPIRES.",
+        "cta_whatsapp": "Discuter sur WhatsApp",
+        "cta_offres": "Voir nos offres",
+        "texte_fin": "Livraison moyenne 5.2 jours • Note 4.9/5",
+        "texte_bas": "Ils nous font déjà confiance"
+    },
+    "services": {
+        "niveau_1": "DIAGNOSTIC SANS FIlTRE",
+        "niveau_2": "POURQUOI VOTRE IMAGE ACTUELLE VOUS FAIT PERDRE DES CLIENTS.",
+        "niveau_3": "90% des clients jugent votre crédibilité en 3 secondes. Votre logo amateur leur dit tout ce qu'ils doivent fuir.",
+        "cartes": [
+            {
+                "pertes": "PERTE ESTIMEE: -40% CA",
+                "titre": "VOUS RESSEMBLER A UN DEBUTANT",
+                "texte": "Logo Canva, couleurs au hasard, site Wix bricolé. Vos prospects à fort budget partent chez votre concurrent premium sans même vous comparer."
+            },
+            {
+                "pertes": "PERTE ESTIMEE: -62% CONVERSION",
+                "titre": "VOTRE IMAGE NE VEND PAS",
+                "texte": "Une belle image ne suffit pas. Il faut une image stratégique qui rassure, positionne et déclenche l'achat. Actuellement, vous décorerez, vous ne convertissez pas."
+            },
+            {
+                "pertes": "PERTE ESTIMEE: 87h/MOIS",
+                "titre": "VOUS GEREZ 4 PRESTATAIRES",
+                "texte": "Graphiste en retard, dev qui disparait, copywriter qui ne comprend rien. Résultat: 3 mois de retard et une image incohérente sur tous les supports."
+            }
+        ],
+        "solution": "Solution AETERNA : une seule agence, une direction artistique d'empire, un système qui vend pendant que vous dormez.",
+        "cta": "CORRIGER MON IMAGE"
+    },
+    "offres": {
+        "niveau_1": "INVESTISSEMENT, PAS DEPENSE",
+        "niveau_2": "CHOISSISSEZ VOTRE EMPIRE.",
+        "niveau_3": "3 niveaux. 0 bullshit. Chaque offre est pensée pour une étape de croissance précise. On ne vend pas à tout le monde.",
+        "cartes": [
+            {
+                "plan_name": "Basic",
+                "plan_descp": "Pour démarrer avec les fonctionnalités essentielles.",
+                "plan_price": 1200,
+                "plan_feature": [
+                    "Accès aux blocs de base",
+                    "Support par email",
+                    "1 projet actif"
+                ]
+            },
+            {
+                "plan_name": "Pro",
+                "plan_descp": "Pour les projets qui ont besoin de plus de flexibilité.",
+                "plan_price": 2500,
+                "plan_feature": [
+                    "Tout dans Basic",
+                    "Blocs premium",
+                    "Support prioritaire",
+                    "5 projets actifs"
+                ]
+            },
+            {
+                "plan_name": "Pro Plus",
+                "plan_descp": "Scale with confidence using premium blocks, templates, and included strategy guidance.",
+                "plan_price": 3800,
+                "plan_feature": [
+                    "Tout dans Pro",
+                    "Templates premium & sections en plus",
+                    "Accès anticipé aux nouveaux composants",
+                    "Discord privé & support prioritaire",
+                    "Sessions stratégie mensuelles"
+                ],
+                "highlighted": true
+            }
+        ]
+    }
+}

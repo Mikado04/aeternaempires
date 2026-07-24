@@ -1,0 +1,83 @@
+{
+    "nav": {
+        "services": "SERVICIOS",
+        "offres": "OFERTAS",
+        "realisations": "PROYECTOS",
+        "contact": "CONTACTO"
+    },
+    "hero": {
+        "badge": "Agencia de comunicación • París • Mundo remoto",
+        "titre": "NO TE VENDEMOS UN LOGOTIPO.<br/> <red>CONSTRUIMOS UNA</red> IMAGEN QUE VENDE POR TI.",
+        "texte_first": "Para particulares, pymes y grandes empresas que rechazan el amateurismo. Diseño gráfico, sitio web, aplicación móvil: un único punto de contacto, una imagen de imperio.",
+        "texte_second": "CONSTRUIMOS IMPERIOS.",
+        "cta_whatsapp": "Chatea por WhatsApp",
+        "cta_offres": "Ver nuestras ofertas",
+        "texte_fin": "Tiempo medio de entrega: 5,2 días • Valoración: 4,9/5",
+        "texte_bas": "Ya confían en nosotros"
+    },
+    "services": {
+        "niveau_1": "DIAGNÓSTICO SIN FILTROS",
+        "niveau_2": "POR QUÉ TU IMAGEN ACTUAL TE ESTÁ HACIENDO PERDER CLIENTES.",
+        "niveau_3": "El 90% de los clientes juzgan tu credibilidad en 3 segundos. Tu logotipo poco profesional les indica exactamente lo que deben evitar.",
+        "cartes": [
+            {
+                "pertes": "PÉRDIDA ESTIMADA: -40% FACTURACIÓN",
+                "titre": "PARECES UN PRINCIPIANTE",
+                "texte": "Logo de Canva, colores al azar, web hecha con Wix a trozos. Tus prospectos de alto presupuesto se van con tu competidor premium sin siquiera compararte."
+            },
+            {
+                "pertes": "PÉRDIDA ESTIMADA: -62% CONVERSIÓN",
+                "titre": "TU IMAGEN NO VENDE",
+                "texte": "Una imagen bonita no basta. Necesitas una imagen estratégica que genere confianza, posicione y active la compra. Ahora mismo decoras, no conviertes."
+            },
+            {
+                "pertes": "PÉRDIDA ESTIMADA: 87h/MES",
+                "titre": "GESTIONAS 4 PROVEEDORES",
+                "texte": "Diseñador que se retrasa, desarrollador que desaparece, redactor que no entiende nada. Resultado: 3 meses de retraso y una imagen incoherente en todos los soportes."
+            }
+        ],
+        "solution": "Solución AETERNA: una sola agencia, una dirección artística de imperio, un sistema que vende mientras duermes.",
+        "cta": "CORREGIR MI IMAGEN"
+    },
+    "offres": {
+        "niveau_1": "INVERSIÓN, NO GASTO",
+        "niveau_2": "ELIGE TU IMPERIO.",
+        "niveau_3": "3 niveles. Sin rodeos. Cada oferta está diseñada para una etapa de crecimiento concreta. No vendemos a todo el mundo.",
+        "cartes": [
+            {
+                "plan_name": "Basic",
+                "plan_descp": "Pour démarrer avec les fonctionnalités essentielles.",
+                "plan_price": 1200,
+                "plan_feature": [
+                    "Accès aux blocs de base",
+                    "Support par email",
+                    "1 projet actif"
+                ]
+            },
+            {
+                "plan_name": "Pro",
+                "plan_descp": "Pour les projets qui ont besoin de plus de flexibilité.",
+                "plan_price": 2500,
+                "plan_feature": [
+                    "Tout dans Basic",
+                    "Blocs premium",
+                    "Support prioritaire",
+                    "5 projets actifs"
+                ]
+            },
+            {
+                "plan_name": "Pro Plus",
+                "plan_descp": "Scale with confidence using premium blocks, templates, and included strategy guidance.",
+                "plan_price": 3800,
+                "plan_feature": [
+                    "Tout dans Pro",
+                    "Templates premium & sections en plus",
+                    "Accès anticipé aux nouveaux composants",
+                    "Discord privé & support prioritaire",
+                    "Sessions stratégie mensuelles"
+                ],
+                "highlighted": true
+            }
+        ]
+    }
+}
