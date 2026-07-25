@@ -11,7 +11,16 @@
     --color-or: #B8966A;
     --color-anthracite: #1E1E1E;
     --font-sans: 'Poppins', sans-serif;
+
+    
 }
+
+@layer base{
+      body {
+        background-color: var(--color-ivoire);
+        color: var(--color-noir)
+      }
+    }
 
 @custom-variant dark (&:where(.dark, .dark *));
 
