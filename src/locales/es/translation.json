@@ -45,39 +45,171 @@
         "niveau_3": "3 niveles. Sin rodeos. Cada oferta está diseñada para una etapa de crecimiento concreta. No vendemos a todo el mundo.",
         "cartes": [
             {
-                "plan_name": "Basic",
-                "plan_descp": "Pour démarrer avec les fonctionnalités essentielles.",
-                "plan_price": 1200,
-                "plan_feature": [
-                    "Accès aux blocs de base",
-                    "Support par email",
-                    "1 projet actif"
-                ]
-            },
-            {
-                "plan_name": "Pro",
-                "plan_descp": "Pour les projets qui ont besoin de plus de flexibilité.",
-                "plan_price": 2500,
-                "plan_feature": [
-                    "Tout dans Basic",
-                    "Blocs premium",
-                    "Support prioritaire",
-                    "5 projets actifs"
-                ]
-            },
-            {
-                "plan_name": "Pro Plus",
-                "plan_descp": "Scale with confidence using premium blocks, templates, and included strategy guidance.",
-                "plan_price": 3800,
-                "plan_feature": [
-                    "Tout dans Pro",
-                    "Templates premium & sections en plus",
-                    "Accès anticipé aux nouveaux composants",
-                    "Discord privé & support prioritaire",
-                    "Sessions stratégie mensuelles"
+                "label": "PARA EMPEZAR FUERTE",
+                "name": "START",
+                "price_top": "500€",
+                "price": "250-350€",
+                "price_extra": "",
+                "tag": "IDENTIDAD EXPRÉS 72H",
+                "descp": "Perfecto si empiezas de cero y quieres dejar de parecer amateur desde mañana.",
+                "features": [
+                    "Logo + variantes (negro/blanco/color)",
+                    "Paleta + tipografías de imperio",
+                    "Tarjeta de visita + papel con membrete",
+                    "Mini guía de marca PDF",
+                    "Archivos fuente AI/PNG/SVG",
+                    "Entrega garantizada en 72h"
                 ],
-                "highlighted": true
+                "cta": "PEDIR START",
+                "note": "Pago 50% / 50% • Factura incluida",
+                "ribbon": ""
+            },
+            {
+                "label": "PARA DOMINAR",
+                "name": "GROWTH",
+                "price_top": "1500€",
+                "price": "750€",
+                "price_extra": "+ 150€/mes",
+                "tag": "SITIO ONE-PAGE + 10 VISUALES/MES",
+                "descp": "Nuestro más vendido. Te vuelves imparable: un sitio que convierte + contenido que alimenta tu imperio cada mes.",
+                "features": [
+                    "Todo lo de START",
+                    "Sitio One-Page premium (Framer/Next.js)",
+                    "Copywriting orientado a ventas",
+                    "SEO básico + Analytics",
+                    "10 visuales para redes / mes",
+                    "Soporte prioritario por WhatsApp",
+                    "Alojamiento recomendado incluido"
+                ],
+                "cta": "PEDIR GROWTH — -50%",
+                "note": "2 plazas restantes este mes",
+                "ribbon": "★ EL MÁS ELEGIDO • -50% LANZAMIENTO"
+            },
+            {
+                "label": "PARA REINAR",
+                "name": "EMPIRE",
+                "price_top": "PRESUPUESTO",
+                "price": "desde 2000€",
+                "price_extra": "",
+                "tag": "SITIO COMPLETO / APP + BRANDING COMPLETO",
+                "descp": "Para los ambiciosos. Construimos el ecosistema completo: branding, sitio/app, automatización, captación.",
+                "features": [
+                    "Todo lo de GROWTH",
+                    "Sitio multipágina / E-commerce / App móvil",
+                    "Branding completo + brand book 30 páginas",
+                    "Estrategia de contenido 90 días",
+                    "Automatización + CRM ligero",
+                    "Acompañamiento 60 días",
+                    "Llamada estratégica mensual"
+                ],
+                "cta": "SOLICITAR PRESUPUESTO",
+                "note": "Auditoría gratis de 15 min antes del presupuesto",
+                "ribbon": ""
             }
         ]
+    },
+    "offr_rea": {
+        "label": "PROCESO IMPERIO",
+        "titre": "DE LA IDEA AL IMPERIO EN 3 PASOS.",
+        "sous_titre": "Sin exceso de reuniones. Sin 12 idas y vueltas. Un proceso militar para entregar rápido, bien y sin fricción.",
+        "methode": "MÉTODO AETERNA V2.1",
+        "etapes": [
+            {
+                "titre": "LLAMADA 15 MIN — DISECCIONAMOS",
+                "badge": "15 MIN",
+                "texte": "Tú hablas, nosotros escuchamos y desafiamos. Objetivo, público, competencia, presupuesto. Al final, tienes un plan claro y un presupuesto firme. Sin PDF de 40 páginas."
+            },
+            {
+                "titre": "MAQUETA 48H — VES EL IMPERIO",
+                "badge": "48H",
+                "texte": "Entregamos una dirección artística completa. No 3 propuestas mediocres, una sola dirección fuerte. Validas o ajustamos. 2 revisiones máx. para seguir afilados."
+            },
+            {
+                "titre": "ENTREGA IMPERIO — DESPLEGAMOS",
+                "badge": "72H - 21D",
+                "texte": "Archivos fuente, sitio en línea, visuales programados. Te formamos 30 min por Loom + soporte 7 días. Eres autónomo o seguimos en GROWTH para escalar."
+            }
+        ]
+    },
+    "realisations": {
+        "label": "PRUEBAS, NO PROMESAS",
+        "titre": "CONSTRUYERON SU IMPERIO.",
+        "note": "Resultados medios observados: +73% de solicitudes cualificadas tras el rediseño. Sin magia, solo posicionamiento.",
+        "apercu": "VISTA PREVIA VÍDEO • ANTES/DESPUÉS",
+        "avis": [
+            {
+                "texte": "Pasamos de 3 a 27 reuniones/mes en 45 días. La web filtra por nosotros. Ahora solo hablamos con clientes premium.",
+                "nom": "Sofia M.",
+                "role": "Fundadora, Atelier Noir"
+            },
+            {
+                "texte": "Brief a las 14h, maqueta a las 10h del día siguiente. Nunca lo había visto. Y el branding impone respeto desde el primer segundo.",
+                "nom": "Karim D.",
+                "role": "CEO, Vecta Agency"
+            },
+            {
+                "texte": "Antes justificábamos nuestro precio. Ahora lo hace nuestra imagen. Ticket medio +42%. AETERNA se amortizó en 11 días.",
+                "nom": "Léa P.",
+                "role": "E-commerce • Maison Luxe"
+            }
+        ],
+        "footer_stat": "+12 IMPERIOS CONSTRUIDOS • 100% DE CLIENTES QUE SIGUEN EN GROWTH",
+        "cta_portfolio": "VER EL PORTFOLIO COMPLETO"
+    },
+    "fondateur": {
+        "badge": "FUNDADOR Y DIRECTOR GENERAL - MALABO",
+        "titre": "DETRÁS DE<br/>AETERNA EMPIRES",
+        "texte": "Me llamo <b>Daniel AVIHOUE</b>, Diseñador Gráfico y Fundador de Aeterna Empires. Con base en Malabo, dirijo una agencia de comunicación pensada para durar 100 años. Acompaño a particulares, pymes y grandes empresas que quieren una imagen fuerte, que vende e impone respeto. En Aeterna Empires no entregamos simples archivos. Construimos imperios.",
+        "caption": "DANIEL AVIHOUE — FUNDADOR",
+        "cta_portfolio": "VER MI PORTFOLIO",
+        "cta_contact": "HABLAR CON DANIEL",
+        "lieu": "CON BASE EN MALABO • REMOTE WORLDWIDE •",
+        "dispo": "DISPONIBLE"
+    },
+    "contact": {
+        "label": "FAQ • TRANSPARENCIA TOTAL",
+        "titre": "RESPONDEMOS ANTES DE QUE PREGUNTES.",
+        "aide_titre": "¿AÚN TIENES UNA PREGUNTA?",
+        "aide_texte": "Respondemos en < 2h por WhatsApp. Sin bot, sin comercial, el fundador.",
+        "aide_cta": "Hacer mi pregunta por WhatsApp",
+        "faq": [
+            {
+                "q": "¿Cuáles son vuestros plazos de entrega reales?",
+                "r": "START entregado en 72h exactas. GROWTH en 7 días. EMPIRE en 14-21 días según complejidad. Sin retrasos, sin excusas. Contrato con penalización por retraso."
+            },
+            {
+                "q": "¿Cómo funciona el pago?",
+                "r": "50% al inicio, 50% a la entrega. Factura profesional incluida. Transferencia o tarjeta."
+            },
+            {
+                "q": "¿Hacéis modificaciones ilimitadas?",
+                "r": "No. 2 rondas de revisiones incluidas para seguir rápidos y afilados. Más allá se factura — pero rara vez llegamos ahí."
+            },
+            {
+                "q": "¿Por qué elegir AETERNA en vez de un freelance de 50€?",
+                "r": "Un freelance de 50€ entrega un archivo. Nosotros entregamos una imagen que vende, un sistema completo y un único interlocutor responsable del resultado."
+            }
+        ],
+        "cta_badge": "OFERTA LANZAMIENTO -50% • 2 PLAZAS RESTANTES",
+        "cta_titre": "¿LISTO PARA DEJAR DE PARECER AMATEUR?",
+        "cta_texte": "Una llamada de 15 minutos. Sin pitch. Te decimos si podemos ayudarte y cómo. Si no, te orientamos. ¿Trato?",
+        "cta_bouton": "CONSTRUIR MI IMPERIO POR WHATSAPP",
+        "cta_note": "RESPUESTA EN < 2H • SIN COMPROMISO • FUNDADOR EN DIRECTO"
+    },
+    "footer": {
+        "slogan": "CONSTRUIMOS IMPERIOS.",
+        "description": "Agencia de comunicación premium. Diseño gráfico, sitios web, aplicaciones móviles. Un único estándar: la excelencia. Sin freelance, un equipo de imperio.",
+        "tags": ["DESIGN", "WEB", "MOBILE"],
+        "contact_titre": "CONTACTO",
+        "whatsapp_label": "WhatsApp:",
+        "email": "contact@aeternaempires.com",
+        "lieu": "Malabo • Remote Worldwide",
+        "horaires": "Lun-Sáb • 9h-20h CET",
+        "nav_titre": "NAVEGACIÓN",
+        "nav": ["Servicios", "Ofertas y Precios", "Proyectos", "Aviso legal"],
+        "domaine_label": "Dominio oficial:",
+        "domaine": "www.aeternaempires.com",
+        "copyright": "© 2026-2126 AETERNA EMPIRES. TODOS LOS DERECHOS RESERVADOS. CONSTRUIMOS IMPERIOS QUE DURAN 100 AÑOS.",
+        "statut": "AGENCIA OPERATIVA"
     }
 }

@@ -70,17 +70,16 @@ const Header = () => {
       >
         <GoArrowUpRight className="text-xl" /> Whatsapp
       </a>
-      <div>
+      <div className="hidden md:block">
         <select
           value={i18n.language}
           onChange={(e) => i18n.changeLanguage(e.target.value)}
-          className="bg-transparent font-bold cursor-pointer"
+          className="bg-transparent text-noir font-bold cursor-pointer [&>option]:text-noir"
         >
           <option value="fr">FR</option>
           <option value="en">EN</option>
           <option value="es">ES</option>
         </select>
-
       </div>
 
       {/* Burger mobile */}
@@ -122,6 +121,24 @@ const Header = () => {
                 >
                   <GoArrowUpRight className="text-xl" /> Whatsapp
                 </a>
+              </li>
+              <li className="flex items-center gap-2 pt-2">
+                {["fr", "en", "es"].map((lng) => (
+                  <button
+                    key={lng}
+                    onClick={() => {
+                      i18n.changeLanguage(lng);
+                      setIsMenuOpen(false);
+                    }}
+                    className={`px-3 py-1 rounded-full text-sm font-bold border transition ${
+                      i18n.language === lng
+                        ? "bg-rouge text-white border-rouge"
+                        : "border-noir/20 text-noir hover:border-rouge"
+                    }`}
+                  >
+                    {lng.toUpperCase()}
+                  </button>
+                ))}
               </li>
             </ul>
           </motion.div>

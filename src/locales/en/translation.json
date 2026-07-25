@@ -45,39 +45,171 @@
         "niveau_3": "3 tiers. 0 bullshit. Each offer is built for a specific growth stage. We don't sell to everyone.",
         "cartes": [
             {
-                "plan_name": "Basic",
-                "plan_descp": "Pour démarrer avec les fonctionnalités essentielles.",
-                "plan_price": 1200,
-                "plan_feature": [
-                    "Accès aux blocs de base",
-                    "Support par email",
-                    "1 projet actif"
-                ]
-            },
-            {
-                "plan_name": "Pro",
-                "plan_descp": "Pour les projets qui ont besoin de plus de flexibilité.",
-                "plan_price": 2500,
-                "plan_feature": [
-                    "Tout dans Basic",
-                    "Blocs premium",
-                    "Support prioritaire",
-                    "5 projets actifs"
-                ]
-            },
-            {
-                "plan_name": "Pro Plus",
-                "plan_descp": "Scale with confidence using premium blocks, templates, and included strategy guidance.",
-                "plan_price": 3800,
-                "plan_feature": [
-                    "Tout dans Pro",
-                    "Templates premium & sections en plus",
-                    "Accès anticipé aux nouveaux composants",
-                    "Discord privé & support prioritaire",
-                    "Sessions stratégie mensuelles"
+                "label": "TO START STRONG",
+                "name": "START",
+                "price_top": "500€",
+                "price": "250-350€",
+                "price_extra": "",
+                "tag": "EXPRESS IDENTITY 72H",
+                "descp": "Perfect if you're starting from scratch and want to stop looking amateur as of tomorrow.",
+                "features": [
+                    "Logo + variations (black/white/color)",
+                    "Palette + empire typography",
+                    "Business card + letterhead",
+                    "Mini brand guidelines PDF",
+                    "Source files AI/PNG/SVG",
+                    "Guaranteed 72h delivery"
                 ],
-                "highlighted": true
+                "cta": "ORDER START",
+                "note": "50% / 50% payment • Invoice included",
+                "ribbon": ""
+            },
+            {
+                "label": "TO DOMINATE",
+                "name": "GROWTH",
+                "price_top": "1500€",
+                "price": "750€",
+                "price_extra": "+ 150€/mo",
+                "tag": "ONE-PAGE SITE + 10 VISUALS/MO",
+                "descp": "Our best-seller. You become unstoppable: a site that converts + content that fuels your empire every month.",
+                "features": [
+                    "Everything in START",
+                    "Premium One-Page site (Framer/Next.js)",
+                    "Sales-driven copywriting",
+                    "Basic SEO + Analytics",
+                    "10 social visuals / month",
+                    "Priority WhatsApp support",
+                    "Recommended hosting included"
+                ],
+                "cta": "ORDER GROWTH — -50%",
+                "note": "2 spots left this month",
+                "ribbon": "★ MOST CHOSEN • -50% LAUNCH"
+            },
+            {
+                "label": "TO REIGN",
+                "name": "EMPIRE",
+                "price_top": "ON QUOTE",
+                "price": "from 2000€",
+                "price_extra": "",
+                "tag": "FULL SITE / APP + FULL BRANDING",
+                "descp": "For the ambitious. We build the full ecosystem: branding, site/app, automation, acquisition.",
+                "features": [
+                    "Everything in GROWTH",
+                    "Multi-page site / E-commerce / Mobile app",
+                    "Full branding + 30-page brand book",
+                    "90-day content strategy",
+                    "Automation + lightweight CRM",
+                    "60-day support",
+                    "Monthly strategy call"
+                ],
+                "cta": "REQUEST A QUOTE",
+                "note": "Free 15-min audit before quote",
+                "ribbon": ""
             }
         ]
+    },
+    "offr_rea": {
+        "label": "EMPIRE PROCESS",
+        "titre": "FROM IDEA TO EMPIRE IN 3 STEPS.",
+        "sous_titre": "No meeting overload. No 12 back-and-forths. A military process to deliver fast, well, and friction-free.",
+        "methode": "AETERNA METHOD V2.1",
+        "etapes": [
+            {
+                "titre": "15-MIN CALL — WE DISSECT",
+                "badge": "15 MIN",
+                "texte": "You talk, we listen and challenge. Goal, target, competition, budget. By the end, you have a clear plan and a firm quote. No 40-page PDF."
+            },
+            {
+                "titre": "48H MOCKUP — YOU SEE THE EMPIRE",
+                "badge": "48H",
+                "texte": "We deliver a complete art direction. Not 3 average options, one strong direction. You validate or we adjust. 2 revisions max to stay sharp."
+            },
+            {
+                "titre": "EMPIRE DELIVERY — WE DEPLOY",
+                "badge": "72H - 21D",
+                "texte": "Source files, live site, scheduled visuals. We train you 30 min via Loom + 7-day support. You're autonomous or we stay in GROWTH to scale."
+            }
+        ]
+    },
+    "realisations": {
+        "label": "PROOF, NOT PROMISES",
+        "titre": "THEY BUILT THEIR EMPIRE.",
+        "note": "Average measured results: +73% qualified inquiries after the redesign. No magic, just positioning.",
+        "apercu": "VIDEO PREVIEW • BEFORE/AFTER",
+        "avis": [
+            {
+                "texte": "We went from 3 to 27 meetings/month in 45 days. The site filters for us. We now only talk to premium clients.",
+                "nom": "Sofia M.",
+                "role": "Founder, Atelier Noir"
+            },
+            {
+                "texte": "Brief at 2pm, mockup by 10am the next day. Never seen that. And the branding commands respect from the first second.",
+                "nom": "Karim D.",
+                "role": "CEO, Vecta Agency"
+            },
+            {
+                "texte": "Before, we justified our price. Now our image does. Average cart +42%. AETERNA paid for itself in 11 days.",
+                "nom": "Léa P.",
+                "role": "E-commerce • Maison Luxe"
+            }
+        ],
+        "footer_stat": "+12 EMPIRES BUILT • 100% OF CLIENTS WHO STAY IN GROWTH",
+        "cta_portfolio": "SEE THE FULL PORTFOLIO"
+    },
+    "fondateur": {
+        "badge": "FOUNDER & CEO - MALABO",
+        "titre": "BEHIND<br/>AETERNA EMPIRES",
+        "texte": "My name is <b>Daniel AVIHOUE</b>, Graphic Designer and Founder of Aeterna Empires. Based in Malabo, I run a communication agency built to last 100 years. I work with individuals, SMEs and large companies that want a strong image that sells and commands respect. At Aeterna Empires, we don't deliver mere files. We build empires.",
+        "caption": "DANIEL AVIHOUE — FOUNDER",
+        "cta_portfolio": "SEE MY PORTFOLIO",
+        "cta_contact": "TALK TO DANIEL",
+        "lieu": "BASED IN MALABO • REMOTE WORLDWIDE •",
+        "dispo": "AVAILABLE"
+    },
+    "contact": {
+        "label": "FAQ • FULL TRANSPARENCY",
+        "titre": "WE ANSWER BEFORE YOU ASK.",
+        "aide_titre": "STILL A QUESTION?",
+        "aide_texte": "We reply in < 2h on WhatsApp. No bot, no salesperson, the founder himself.",
+        "aide_cta": "Ask my question on WhatsApp",
+        "faq": [
+            {
+                "q": "What are your real delivery times?",
+                "r": "START delivered in 72h flat. GROWTH in 7 days. EMPIRE in 14-21 days depending on complexity. No delays, no excuses. Contract with late-delivery penalty."
+            },
+            {
+                "q": "How does payment work?",
+                "r": "50% upfront, 50% on delivery. Professional invoice included. Bank transfer or card."
+            },
+            {
+                "q": "Do you offer unlimited revisions?",
+                "r": "No. 2 rounds of revisions included to stay fast and sharp. Beyond that it's billed — but we rarely get there."
+            },
+            {
+                "q": "Why choose AETERNA over a €50 freelancer?",
+                "r": "A €50 freelancer delivers a file. We deliver an image that sells, a complete system, and a single point of contact accountable for the result."
+            }
+        ],
+        "cta_badge": "LAUNCH OFFER -50% • 2 SPOTS LEFT",
+        "cta_titre": "READY TO STOP LOOKING AMATEUR?",
+        "cta_texte": "A 15-minute call. No pitch. We tell you if we can help and how. If not, we point you elsewhere. Deal?",
+        "cta_bouton": "BUILD MY EMPIRE ON WHATSAPP",
+        "cta_note": "REPLY IN < 2H • NO COMMITMENT • FOUNDER DIRECT"
+    },
+    "footer": {
+        "slogan": "WE BUILD EMPIRES.",
+        "description": "Premium communication agency. Graphic design, websites, mobile apps. One single standard: excellence. No freelancer, an empire team.",
+        "tags": ["DESIGN", "WEB", "MOBILE"],
+        "contact_titre": "CONTACT",
+        "whatsapp_label": "WhatsApp:",
+        "email": "contact@aeternaempires.com",
+        "lieu": "Malabo • Remote Worldwide",
+        "horaires": "Mon-Sat • 9am-8pm CET",
+        "nav_titre": "NAVIGATION",
+        "nav": ["Services", "Offers & Pricing", "Work", "Legal notice"],
+        "domaine_label": "Official domain:",
+        "domaine": "www.aeternaempires.com",
+        "copyright": "© 2026-2126 AETERNA EMPIRES. ALL RIGHTS RESERVED. WE BUILD EMPIRES THAT LAST 100 YEARS.",
+        "statut": "AGENCY OPERATIONAL"
     }
 }

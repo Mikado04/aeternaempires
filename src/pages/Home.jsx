@@ -10,9 +10,15 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import Services from "../components/Services";
 import Offres from "../components/Offres";
+import Process from "../components/Process";
+import Fondateur from "../components/Fondateur";
+import Contact from "../components/Contact";
+import WhatsAppFloat from "../components/WhatsAppFloat";
 import {useTranslation, Trans } from "react-i18next";
 import { span } from "motion/react-client";
 import { CardSmall } from "@/hooks/CardSmall";
+import Realisations from "@/components/Realisations";
+import HeroParticles from "../components/ui/particle-effect-for-hero";
 
 const affiche = [
   {
@@ -44,18 +50,25 @@ function Home() {
       <Header />
 
       <section
-        className="flex flex-col md:flex-row mt-24 md:mt-32 justify-around items-center md:items-start px-4 md:px-0 gap-12 md:gap-0 "
+        className="relative bg-noir text-ivoire overflow-hidden flex flex-col md:flex-row pt-32 md:pt-40 pb-16 justify-around items-center md:items-start px-4 md:px-0 gap-12 md:gap-0 "
         id="accueil"
       >
-        <div className="mt-8 text-center md:text-left max-w-xl ">
-          <p className="bg-noir text-ivoire rounded-2xl text-sm md:text-xl inline-flex items-center justify-center p-2">
+        <HeroParticles />
+
+        <motion.div
+          initial={{ opacity: 0, y: 60 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, ease: "easeOut" }}
+          className="relative z-10 mt-8 text-center md:text-left max-w-xl "
+        >
+          <p className="bg-ivoire/10 border border-ivoire/15 text-ivoire rounded-2xl text-sm md:text-xl inline-flex items-center justify-center p-2">
             <span className="text-rouge">
               <GoDotFill />
             </span>{" "}
             <Trans i18nKey="hero.badge"/>
           </p>
 
-          <h1 className="font-black text-4xl sm:text-5xl md:text-6xl mt-8 ">
+          <h1 className="font-black text-ivoire text-4xl sm:text-5xl md:text-6xl mt-8 ">
             <Trans i18nKey="hero.titre"
               components={{ red: <span className="text-rouge" />, br: <br /> }}
             />
@@ -63,11 +76,11 @@ function Home() {
             
           </h1>
 
-          <p className="mt-8 text-noir/50 text-base md:text-2xl">
+          <p className="mt-8 text-ivoire/60 text-base md:text-2xl">
             <Trans i18nKey="hero.texte_first"/>
           </p>
 
-          <h2 className="font-semibold text-xl md:text-2xl mt-8">
+          <h2 className="font-semibold text-ivoire text-xl md:text-2xl mt-8">
             <Trans i18nKey="hero.texte_second" />
           </h2>
 
@@ -83,7 +96,7 @@ function Home() {
             </a>
             <a
               href="#"
-              className="border-2 rounded-4xl border-noir/50 p-2 font-semibold hover:bg-noir hover:text-ivoire transition duration-300"
+              className="border-2 rounded-4xl border-ivoire/40 text-ivoire p-2 font-semibold hover:bg-ivoire hover:text-noir transition duration-300"
             >
               <Trans i18nKey="hero.cta_offres"/>
             </a>
@@ -91,31 +104,31 @@ function Home() {
 
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 mt-6">
             <div className="flex">
-              <p className="bg-noir w-8 h-8 rounded-full flex justify-center items-center text-ivoire">
+              <p className="bg-anthracite border border-ivoire/20 w-8 h-8 rounded-full flex justify-center items-center text-ivoire">
                 A
               </p>
               <p className="bg-rouge w-8 h-8 rounded-full flex justify-center items-center text-ivoire border-2 border-ivoire relative right-2">
                 E
               </p>
-              <p className="border w-8 h-8 rounded-full flex justify-center items-center border-noir/20 font-semibold text-noir/30 relative right-4 bg-ivoire">
+              <p className="border w-8 h-8 rounded-full flex justify-center items-center border-ivoire/20 font-semibold text-ivoire/50 relative right-4 bg-anthracite">
                 +9
               </p>
             </div>
-            <p className="font-semibold text-noir/40 text-sm md:text-base">
+            <p className="font-semibold text-ivoire/50 text-sm md:text-base">
               <Trans i18nKey="hero.texte_fin"/>
             </p>
           </div>
-        </div>
+        </motion.div>
 
         {/* Stack d'affiches + stats — masqué en dessous de md */}
-        <div className="hidden md:block relative shadow-md p-12 rounded-2xl h-fit border border-or/40">
+        <div className="hidden md:block relative z-10 shadow-md p-12 rounded-2xl h-fit border border-or/40 bg-noir/40 backdrop-blur-sm">
           <AfficheStack />
           <div className="flex gap-4 mt-8">
-            <p className="shadow-lg w-32 p-4 rounded-2xl font-bold">
-              <span className="text-noir/40">CONVERSION</span> <br />
+            <p className="bg-anthracite shadow-lg w-32 p-4 rounded-2xl font-bold text-ivoire">
+              <span className="text-ivoire/40">CONVERSION</span> <br />
               +178%
             </p>
-            <p className="bg-noir p-4 rounded-2xl font-bold text-ivoire w-32">
+            <p className="bg-anthracite p-4 rounded-2xl font-bold text-ivoire w-32">
               <span className="text-ivoire/40">DELAI</span> <br />
               +178%
             </p>
@@ -127,12 +140,12 @@ function Home() {
         </div>
 
         {/* Stats seules, visibles en mobile à défaut du stack */}
-        <div className="flex md:hidden gap-3 w-full max-w-md overflow-x-auto px-1">
-          <p className="bg-white shadow-md w-28 shrink-0 p-3 rounded-2xl font-bold text-sm">
-            <span className="text-noir/40 text-xs">CONVERSION</span> <br />
+        <div className="relative z-10 flex md:hidden gap-3 w-full max-w-md overflow-x-auto px-1">
+          <p className="bg-anthracite shadow-md w-28 shrink-0 p-3 rounded-2xl font-bold text-sm text-ivoire">
+            <span className="text-ivoire/40 text-xs">CONVERSION</span> <br />
             +178%
           </p>
-          <p className="bg-noir p-3 rounded-2xl font-bold text-ivoire w-28 shrink-0 text-sm">
+          <p className="bg-anthracite p-3 rounded-2xl font-bold text-ivoire w-28 shrink-0 text-sm">
             <span className="text-ivoire/40 text-xs">DELAI</span> <br />
             +178%
           </p>
@@ -163,19 +176,28 @@ function Home() {
 
       <Offres />
 
-      <section></section>
+      <Process />
 
-      <section id="realisations" className="mt-52">
-        <p>REALISATION</p>
+      <section id="offr-rea" className="">
+        <div className="flex ">
+          <div>
+            <h2></h2>
+          </div>
+          <div>
+
+          </div>
+        </div>
       </section>
 
-      <section></section>
+      <Realisations />
 
-      <section id="contact" className="mt-52">
-        <p>CONTACT</p>
-      </section>
+      <Fondateur />
+
+      <Contact />
 
       <Footer />
+
+      <WhatsAppFloat />
     </div>
   );
 }
