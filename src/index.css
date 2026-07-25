@@ -15,12 +15,7 @@
     
 }
 
-@layer base{
-      body {
-        background-color: var(--color-ivoire);
-        color: var(--color-noir)
-      }
-    }
+
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -184,4 +179,11 @@
   html {
     @apply font-sans;
     }
+}
+
+@layer base{
+      body {
+        background-color: var(--color-ivoire);
+        color: var(--color-noir)
+      }
 }
