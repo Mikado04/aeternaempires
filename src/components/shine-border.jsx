@@ -24,14 +24,14 @@ const ShineBorder = ({
     gradient = "from-blue-500 via-red-500 to-teal-400",
 }) => {
     return (
-        <div className={cn("relative rounded-2xl", className)} style={{ padding: borderWidth }}>
+        <div className={cn("relative rounded-2xl h-full", className)} style={{ padding: borderWidth }}>
             <div className="absolute inset-0 rounded-2xl overflow-hidden">
                 <div
                     className={cn("absolute -inset-full blur-sm animate-spin bg-conic", gradient)}
                     style={{ animationDuration: `${duration}s` }}
                 />
             </div>
-            <div className="relative rounded-2xl bg-card">{children}</div>
+            <div className="relative rounded-2xl bg-card h-full">{children}</div>
         </div>
     );
 };
@@ -42,7 +42,7 @@ const ShineBorder = ({
 
 const PricingCard = ({ plan_name, plan_descp, plan_price, plan_feature, highlighted }) => {
     return (
-        <Card className="relative h-full rounded-2xl p-8 gap-8 border-0 ring-0">
+        <Card className="relative h-full flex flex-col rounded-2xl p-8 gap-8 border-0 ring-0">
             <CardHeader className="p-0">
                 <div className="flex flex-col gap-3 self-stretch">
                     <div className="flex items-center justify-between">
