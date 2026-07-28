@@ -1,6 +1,7 @@
 import { Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useTranslation } from "react-i18next";
+import { whatsappUrl } from "@/lib/whatsapp";
 
 /* ============================= */
 /* ShineBorder — cadre à bordure dégradée animée (aux couleurs de la marque) */
@@ -56,6 +57,7 @@ const PricingCard = ({
   highlighted,
   strikeTop,
   ctaStyle,
+  ctaHref,
 }) => {
   // Palette selon carte claire (START/EMPIRE) ou carte sombre mise en avant (GROWTH)
   const base = highlighted ? "bg-noir text-ivoire" : "bg-white text-noir";
@@ -129,14 +131,17 @@ const PricingCard = ({
       </ul>
 
       {/* CTA + note */}
-      <button
+      <a
+        href={ctaHref}
+        target="_blank"
+        rel="noopener noreferrer"
         className={cn(
-          "mt-8 w-full rounded-full py-3 font-bold text-sm transition duration-300",
+          "mt-8 w-full rounded-full py-3 font-bold text-sm transition duration-300 flex items-center justify-center",
           ctaCls
         )}
       >
         {cta}
-      </button>
+      </a>
       {note && <p className={cn("mt-3 text-xs text-center", muted)}>{note}</p>}
     </div>
   );
@@ -162,6 +167,7 @@ export default function ShineBorderDemo() {
             highlighted={cfg.highlighted}
             strikeTop={cfg.strikeTop}
             ctaStyle={cfg.cta}
+            ctaHref={whatsappUrl(t("offres.wa_message", { plan: plan.name }))}
           />
         );
 

@@ -9,6 +9,7 @@ import logo_principal from "../assets/logo/logo_principal.svg";
 import { GoArrowUpRight } from "react-icons/go";
 import { HiMenu, HiX } from "react-icons/hi";
 import { useTranslation } from "react-i18next";
+import { WHATSAPP_URL } from "../lib/whatsapp";
 
 
 
@@ -65,7 +66,9 @@ const Header = () => {
 
       {/* CTA Whatsapp desktop */}
       <a
-        href="#"
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
         className="hidden md:flex items-center gap-2 bg-rouge/90 border-2 border-rouge p-2 rounded-3xl hover:text-white hover:bg-rouge font-bold transition duration-300 text-white relative z-10"
       >
         <GoArrowUpRight className="text-xl" /> Whatsapp
@@ -116,7 +119,10 @@ const Header = () => {
               ))}
               <li>
                 <a
-                  href="#"
+                  href={WHATSAPP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsMenuOpen(false)}
                   className="flex items-center gap-2 bg-rouge/90 border-2 border-rouge px-4 py-2 rounded-3xl text-white hover:bg-rouge transition"
                 >
                   <GoArrowUpRight className="text-xl" /> Whatsapp

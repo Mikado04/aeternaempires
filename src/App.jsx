@@ -19,7 +19,7 @@ function App() {
         rotationSpeed={0.0002}
         waveSpeed={0.005}
       />
-      <span className="pointer-events-none absolute z-10 text-center text-7xl leading-none font-semibold tracking-tighter whitespace-pre-wrap text-black/20">
+      <span className="pointer-events-none absolute z-10 text-center text-7xl leading-none font-semibold tracking-tighter whitespace-pre-wrap text-black/5">
         Aeterna Empires
       </span>
     </div>

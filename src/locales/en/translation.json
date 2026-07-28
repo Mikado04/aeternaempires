@@ -13,7 +13,11 @@
         "cta_whatsapp": "Chat on WhatsApp",
         "cta_offres": "See our offers",
         "texte_fin": "Average delivery time 5.2 days • Rating 4.9/5",
-        "texte_bas": "They already trust us"
+        "texte_bas": "They already trust us",
+        "carte_badge": "AGENCY • NOT FREELANCE",
+        "carte_conversion": "CONVERSION",
+        "carte_delai": "DELAY",
+        "carte_empires": "EMPIRES"
     },
     "services": {
         "niveau_1": "UNFILTERED DIAGNOSIS",
@@ -43,6 +47,7 @@
         "niveau_1": "INVESTMENT, NOT EXPENSE",
         "niveau_2": "CHOOSE YOUR EMPIRE.",
         "niveau_3": "3 tiers. 0 bullshit. Each offer is built for a specific growth stage. We don't sell to everyone.",
+        "wa_message": "Hello Aeterna Empires, I'm interested in the {{plan}} offer. Can you tell me more?",
         "cartes": [
             {
                 "label": "TO START STRONG",

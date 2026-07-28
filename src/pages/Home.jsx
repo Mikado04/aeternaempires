@@ -2,12 +2,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { GoDotFill } from "react-icons/go";
 import { GoArrowRight } from "react-icons/go";
-import image1 from "../assets/affiches/image1.jpg";
-import image2 from "../assets/affiches/image2.jpg";
-import image3 from "../assets/affiches/image3.png";
-import image4 from "../assets/affiches/image4.png";
-import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import { motion } from "motion/react";
 import Services from "../components/Services";
 import Offres from "../components/Offres";
 import Process from "../components/Process";
@@ -19,29 +14,7 @@ import { span } from "motion/react-client";
 import { CardSmall } from "@/hooks/CardSmall";
 import Realisations from "@/components/Realisations";
 import HeroParticles from "../components/ui/particle-effect-for-hero";
-
-const affiche = [
-  {
-    id: 1,
-    image: image1,
-    label: "Affiche 1",
-  },
-  {
-    id: 2,
-    image: image2,
-    label: "Affiche 2",
-  },
-  {
-    id: 3,
-    image: image3,
-    label: "Affiche 3",
-  },
-  {
-    id: 4,
-    image: image4,
-    label: "Affiche 4",
-  },
-];
+import HeroCard from "../components/HeroCard";
 
 function Home() {
   const {t} = useTranslation();
@@ -50,7 +23,7 @@ function Home() {
       <Header />
 
       <section
-        className="relative bg-noir text-ivoire overflow-hidden flex flex-col md:flex-row pt-32 md:pt-40 pb-16 justify-around items-center md:items-start px-4 md:px-0 gap-12 md:gap-0 "
+        className="relative bg-noir text-ivoire overflow-hidden flex flex-col md:flex-row pt-32 md:pt-40 pb-16 justify-around items-center md:items-center px-4 md:px-0 gap-12 md:gap-0 "
         id="accueil"
       >
         <HeroParticles />
@@ -120,40 +93,8 @@ function Home() {
           </div>
         </motion.div>
 
-        {/* Stack d'affiches + stats — masqué en dessous de md */}
-        <div className="hidden md:block relative z-10 shadow-md p-12 rounded-2xl h-fit border border-or/40 bg-noir/40 backdrop-blur-sm">
-          <AfficheStack />
-          <div className="flex gap-4 mt-8">
-            <p className="bg-anthracite shadow-lg w-32 p-4 rounded-2xl font-bold text-ivoire">
-              <span className="text-ivoire/40">CONVERSION</span> <br />
-              +178%
-            </p>
-            <p className="bg-anthracite p-4 rounded-2xl font-bold text-ivoire w-32">
-              <span className="text-ivoire/40">DELAI</span> <br />
-              +178%
-            </p>
-            <p className="bg-rouge p-4 rounded-2xl font-bold text-ivoire w-32">
-              <span className="text-ivoire/40">EMPIRES</span> <br />
-              +178%
-            </p>
-          </div>
-        </div>
-
-        {/* Stats seules, visibles en mobile à défaut du stack */}
-        <div className="relative z-10 flex md:hidden gap-3 w-full max-w-md overflow-x-auto px-1">
-          <p className="bg-anthracite shadow-md w-28 shrink-0 p-3 rounded-2xl font-bold text-sm text-ivoire">
-            <span className="text-ivoire/40 text-xs">CONVERSION</span> <br />
-            +178%
-          </p>
-          <p className="bg-anthracite p-3 rounded-2xl font-bold text-ivoire w-28 shrink-0 text-sm">
-            <span className="text-ivoire/40 text-xs">DELAI</span> <br />
-            +178%
-          </p>
-          <p className="bg-rouge p-3 rounded-2xl font-bold text-ivoire w-28 shrink-0 text-sm">
-            <span className="text-ivoire/40 text-xs">EMPIRES</span> <br />
-            +178%
-          </p>
-        </div>
+        {/* Carte de visite premium (remplace le carrousel d'affiches) */}
+        <HeroCard />
       </section>
 
       <div className="w-full bg-ivoire/60 p-6 md:p-8 mt-24 flex justify-center">
@@ -201,81 +142,5 @@ function Home() {
     </div>
   );
 }
-
-const positions = [
-  { top: "0px", left: "0px", rotate: -6, z: 10 },
-  { top: "48px", left: "96px", rotate: 3, z: 20 },
-  { top: "96px", left: "48px", rotate: -2, z: 0 },
-];
-
-const AfficheStack = () => {
-  const [current, setCurrent] = useState(0);
-  const [selected, setSelected] = useState(null);
-  const visibleAffiches = affiche.slice(0, 3);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % visibleAffiches.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, [visibleAffiches.length]);
-
-  return (
-    <>
-      <div className="relative w-full max-w-md h-125 hidden md:block">
-        {visibleAffiches.map((item, index) => {
-          // décalage circulaire par rapport à l'index courant
-          const offset =
-            (index - current + visibleAffiches.length) % visibleAffiches.length;
-          const pos = positions[offset];
-
-          return (
-            <motion.img
-              key={item.id}
-              src={item.image}
-              alt={item.label}
-              layout
-              onClick={() => setSelected(item)}
-              animate={{
-                top: pos.top,
-                left: pos.left,
-                rotate: pos.rotate,
-                zIndex: pos.z,
-              }}
-              transition={{ duration: 0.6, ease: "easeInOut" }}
-              whileHover={{ scale: 1.05 }}
-              className="absolute rounded-2xl shadow-2xl object-cover w-72 h-96 cursor-pointer"
-            />
-          );
-        })}
-      </div>
-
-      {/* Modale plein écran */}
-      <AnimatePresence>
-        {selected && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            onClick={() => setSelected(null)}
-            className="fixed inset-0 z-100 bg-noir/80 backdrop-blur-sm flex items-center justify-center p-8 cursor-zoom-out"
-          >
-            <motion.img
-              layoutId={`affiche-${selected.id}`}
-              src={selected.image}
-              alt={selected.label}
-              initial={{ scale: 0.8, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.8, opacity: 0 }}
-              transition={{ duration: 0.3, ease: "easeOut" }}
-              onClick={(e) => e.stopPropagation()}
-              className="max-w-full max-h-full rounded-2xl shadow-2xl object-contain"
-            />
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </>
-  );
-};
 
 export default Home;

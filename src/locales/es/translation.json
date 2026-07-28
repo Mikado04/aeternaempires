@@ -13,7 +13,11 @@
         "cta_whatsapp": "Chatea por WhatsApp",
         "cta_offres": "Ver nuestras ofertas",
         "texte_fin": "Tiempo medio de entrega: 5,2 días • Valoración: 4,9/5",
-        "texte_bas": "Ya confían en nosotros"
+        "texte_bas": "Ya confían en nosotros",
+        "carte_badge": "AGENCIA • NO FREELANCE",
+        "carte_conversion": "CONVERSIÓN",
+        "carte_delai": "PLAZO",
+        "carte_empires": "IMPERIOS"
     },
     "services": {
         "niveau_1": "DIAGNÓSTICO SIN FILTROS",
@@ -43,6 +47,7 @@
         "niveau_1": "INVERSIÓN, NO GASTO",
         "niveau_2": "ELIGE TU IMPERIO.",
         "niveau_3": "3 niveles. Sin rodeos. Cada oferta está diseñada para una etapa de crecimiento concreta. No vendemos a todo el mundo.",
+        "wa_message": "Hola Aeterna Empires, me interesa la oferta {{plan}}. ¿Pueden contarme más?",
         "cartes": [
             {
                 "label": "PARA EMPEZAR FUERTE",
