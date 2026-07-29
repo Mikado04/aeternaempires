@@ -42,11 +42,13 @@ const Header = () => {
       transition={{ duration: 0.3, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 md:justify-around py-3 text-noir ${isScrolled
         ? "bg-ivoire/50 backdrop-blur-md shadow-lg"
-        : "bg-ivoire/50 shadow-md"
+        : "bg-ivoire/90 shadow-md"
         }`}
     >
 
-      <img src={logo_principal} alt="Logo" className="h-10 relative z-10" />
+      <a href="#accueil" aria-label="Retour en haut" className="relative z-10">
+        <img src={logo_principal} alt="Aeterna Empires" className="h-10" />
+      </a>
 
       {/* Nav desktop */}
       <nav className="hidden md:flex justify-around">
@@ -69,7 +71,7 @@ const Header = () => {
         href={WHATSAPP_URL}
         target="_blank"
         rel="noopener noreferrer"
-        className="hidden md:flex items-center gap-2 bg-rouge/90 border-2 border-rouge p-2 rounded-3xl hover:text-white hover:bg-rouge font-bold transition duration-300 text-white relative z-10"
+        className="hidden md:flex items-center gap-2 bg-[#25D366] border-2 border-[#25D366] p-2 rounded-3xl hover:bg-[#1da851] hover:border-[#1da851] font-bold transition duration-300 text-white relative z-10"
       >
         <GoArrowUpRight className="text-xl" /> Whatsapp
       </a>
@@ -123,7 +125,7 @@ const Header = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setIsMenuOpen(false)}
-                  className="flex items-center gap-2 bg-rouge/90 border-2 border-rouge px-4 py-2 rounded-3xl text-white hover:bg-rouge transition"
+                  className="flex items-center gap-2 bg-[#25D366] border-2 border-[#25D366] px-4 py-2 rounded-3xl text-white hover:bg-[#1da851] transition"
                 >
                   <GoArrowUpRight className="text-xl" /> Whatsapp
                 </a>

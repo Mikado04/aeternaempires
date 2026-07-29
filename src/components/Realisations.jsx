@@ -20,7 +20,7 @@ const Realisations = () => {
             <p className="text-rouge font-semibold text-sm tracking-[0.2em]">
               <Trans i18nKey="realisations.label" />
             </p>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mt-4 leading-tight">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-black mt-4 leading-tight">
               <Trans i18nKey="realisations.titre" />
             </h2>
           </div>

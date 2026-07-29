@@ -15,6 +15,7 @@ import { CardSmall } from "@/hooks/CardSmall";
 import Realisations from "@/components/Realisations";
 import HeroParticles from "../components/ui/particle-effect-for-hero";
 import HeroCard from "../components/HeroCard";
+import { WHATSAPP_URL } from "../lib/whatsapp";
 
 function Home() {
   const {t} = useTranslation();
@@ -49,7 +50,7 @@ function Home() {
             
           </h1>
 
-          <p className="mt-8 text-ivoire/60 text-base md:text-2xl">
+          <p className="mt-8 text-ivoire/60 text-base md:text-xl">
             <Trans i18nKey="hero.texte_first"/>
           </p>
 
@@ -59,7 +60,9 @@ function Home() {
 
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
             <a
-              href="#"
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-rouge text-ivoire rounded-4xl p-2 flex items-center w-fit hover:bg-red-800 transition duration-300"
             >
               <Trans i18nKey="hero.cta_whatsapp"/>
@@ -68,7 +71,7 @@ function Home() {
               </span>
             </a>
             <a
-              href="#"
+              href="#offres"
               className="border-2 rounded-4xl border-ivoire/40 text-ivoire p-2 font-semibold hover:bg-ivoire hover:text-noir transition duration-300"
             >
               <Trans i18nKey="hero.cta_offres"/>

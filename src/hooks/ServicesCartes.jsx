@@ -53,17 +53,15 @@ const ServicesCartes = () => {
         ))}
 
       </div>
-      <div className="flex justify-center">
-        <div className="mt-12 flex flex-col md:flex-row items-center text-center md:text-left
-                gap-6 px-6 md:px-8 py-6 bg-noir text-ivoire rounded-3xl
-                max-w-3xl mx-auto">
-  <span className="bg-rouge w-8 h-8 rounded-full flex justify-center items-center shrink-0">
-    <FaExclamation />
-  </span> 
-          <p className="text-sm md:text-base p-4">
+      <div className="w-full max-w-6xl mx-auto px-4 mt-10">
+        <div className="flex flex-col md:flex-row items-center text-center md:text-left gap-5 md:gap-8 px-6 md:px-8 py-4 bg-noir text-ivoire rounded-3xl">
+          <span className="bg-rouge w-9 h-9 rounded-full flex justify-center items-center shrink-0">
+            <FaExclamation />
+          </span>
+          <p className="text-sm md:text-base flex-1">
             {t("services.solution")}
           </p>
-          <a href="#offres" className="bg-ivoire p-2 rounded-full hover:bg-rouge transition duration-300 text-noir hover:text-ivoire shrink-0 whitespace-nowrap">
+          <a href="#offres" className="bg-ivoire px-5 py-2 rounded-full hover:bg-rouge transition duration-300 text-noir hover:text-ivoire font-bold shrink-0 whitespace-nowrap">
             {t("services.cta")}
           </a>
         </div>

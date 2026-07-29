@@ -31,7 +31,7 @@ const Fondateur = () => {
             <Trans i18nKey="fondateur.badge" />
           </span>
 
-          <h2 className="text-4xl md:text-5xl font-black mt-6 leading-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-black mt-6 leading-tight">
             <Trans i18nKey="fondateur.titre" components={{ br: <br /> }} />
           </h2>
 

@@ -6,7 +6,7 @@
         "contact": "CONTACTO"
     },
     "hero": {
-        "badge": "Agencia de comunicación • París • Mundo remoto",
+        "badge": "Agencia de comunicación • Guinea Ecuatorial",
         "titre": "NO TE VENDEMOS UN LOGOTIPO.<br/> <red>CONSTRUIMOS UNA</red> IMAGEN QUE VENDE POR TI.",
         "texte_first": "Para particulares, pymes y grandes empresas que rechazan el amateurismo. Diseño gráfico, sitio web, aplicación móvil: un único punto de contacto, una imagen de imperio.",
         "texte_second": "CONSTRUIMOS IMPERIOS.",
@@ -52,8 +52,8 @@
             {
                 "label": "PARA EMPEZAR FUERTE",
                 "name": "START",
-                "price_top": "500€",
-                "price": "250-350€",
+                "price_top": "500$",
+                "price": "250-350$",
                 "price_extra": "",
                 "tag": "IDENTIDAD EXPRÉS 72H",
                 "descp": "Perfecto si empiezas de cero y quieres dejar de parecer amateur desde mañana.",
@@ -72,9 +72,9 @@
             {
                 "label": "PARA DOMINAR",
                 "name": "GROWTH",
-                "price_top": "1500€",
-                "price": "750€",
-                "price_extra": "+ 150€/mes",
+                "price_top": "1500$",
+                "price": "750$",
+                "price_extra": "+ 150$/mes",
                 "tag": "SITIO ONE-PAGE + 10 VISUALES/MES",
                 "descp": "Nuestro más vendido. Te vuelves imparable: un sitio que convierte + contenido que alimenta tu imperio cada mes.",
                 "features": [
@@ -94,7 +94,7 @@
                 "label": "PARA REINAR",
                 "name": "EMPIRE",
                 "price_top": "PRESUPUESTO",
-                "price": "desde 2000€",
+                "price": "desde 2000$",
                 "price_extra": "",
                 "tag": "SITIO COMPLETO / APP + BRANDING COMPLETO",
                 "descp": "Para los ambiciosos. Construimos el ecosistema completo: branding, sitio/app, automatización, captación.",

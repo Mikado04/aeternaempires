@@ -6,7 +6,7 @@
         "contact": "CONTACT"
     },
     "hero": {
-        "badge": "Communication Agency • Paris • Remote World",
+        "badge": "Communication Agency • Equatorial Guinea",
         "titre": "WE DON'T SELL YOU A LOGO.<br/> <red>WE BUILD AN</red> IMAGE THAT SELLS FOR YOU.",
         "texte_first": "For individuals, SMEs and large companies that reject amateurism. Graphic design, website, mobile app — a single point of contact, an image of grandeur.",
         "texte_second": "WE BUILD EMPIRES.",
@@ -52,8 +52,8 @@
             {
                 "label": "TO START STRONG",
                 "name": "START",
-                "price_top": "500€",
-                "price": "250-350€",
+                "price_top": "500$",
+                "price": "250-350$",
                 "price_extra": "",
                 "tag": "EXPRESS IDENTITY 72H",
                 "descp": "Perfect if you're starting from scratch and want to stop looking amateur as of tomorrow.",
@@ -72,9 +72,9 @@
             {
                 "label": "TO DOMINATE",
                 "name": "GROWTH",
-                "price_top": "1500€",
-                "price": "750€",
-                "price_extra": "+ 150€/mo",
+                "price_top": "1500$",
+                "price": "750$",
+                "price_extra": "+ 150$/mo",
                 "tag": "ONE-PAGE SITE + 10 VISUALS/MO",
                 "descp": "Our best-seller. You become unstoppable: a site that converts + content that fuels your empire every month.",
                 "features": [
@@ -94,7 +94,7 @@
                 "label": "TO REIGN",
                 "name": "EMPIRE",
                 "price_top": "ON QUOTE",
-                "price": "from 2000€",
+                "price": "from 2000$",
                 "price_extra": "",
                 "tag": "FULL SITE / APP + FULL BRANDING",
                 "descp": "For the ambitious. We build the full ecosystem: branding, site/app, automation, acquisition.",

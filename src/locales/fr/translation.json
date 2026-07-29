@@ -6,7 +6,7 @@
         "contact": "CONTACT"
     },
     "hero": {
-        "badge": "Agence de Communication • Paris • Remote Monde",
+        "badge": "Agence de Communication • Guinée Equatoriale",
         "titre": "ON NE VOUS VEND PAS UN LOGO.<br/> <red>ON BÂTIT UNE</red> IMAGE QUI VEND À VOTRE PLACE.",
         "texte_first": "Pour particuliers, PME et grandes entreprises qui refusent l'amateurisme. Design graphique, site web, app mobile — un seul interlocuteur, une image d'empire.",
         "texte_second": "NOUS BÂTISSONS DES EMPIRES.",
@@ -52,8 +52,8 @@
             {
                 "label": "POUR DÉMARRER FORT",
                 "name": "START",
-                "price_top": "500€",
-                "price": "250-350€",
+                "price_top": "500$",
+                "price": "250-350$",
                 "price_extra": "",
                 "tag": "IDENTITÉ EXPRESS 72H",
                 "descp": "Parfait si vous partez de zéro et voulez arrêter de faire amateur dès demain.",
@@ -72,9 +72,9 @@
             {
                 "label": "POUR DOMINER",
                 "name": "GROWTH",
-                "price_top": "1500€",
-                "price": "750€",
-                "price_extra": "+ 150€/mois",
+                "price_top": "1500$",
+                "price": "750$",
+                "price_extra": "+ 150$/mois",
                 "tag": "SITE ONE-PAGE + 10 VISUELS/MOIS",
                 "descp": "Notre best-seller. Vous devenez inarrêtable : site qui convertit + contenu qui alimente votre empire chaque mois.",
                 "features": [
@@ -94,7 +94,7 @@
                 "label": "POUR RÉGNER",
                 "name": "EMPIRE",
                 "price_top": "SUR DEVIS",
-                "price": "dès 2000€",
+                "price": "dès 2000$",
                 "price_extra": "",
                 "tag": "SITE COMPLET / APP + BRANDING COMPLET",
                 "descp": "Pour les ambitieux. On bâtit l'écosystème complet : branding, site/app, automatisation, acquisition.",
